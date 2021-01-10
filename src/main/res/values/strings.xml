@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Binus EzyFoody</string>
+    <string name="drinks">Drinks</string>
+    <string name="snacks">Snacks</string>
+    <string name="foods">Foods</string>
+    <string name="topup">Top Up</string>
+    <string name="myorder">My Order</string>
+    <string name="totalprice">Total : Rp. 55.000</string>
+    <string name="orderSuccess">Your Order Complete \n Thankyou!</string>
+</resources>

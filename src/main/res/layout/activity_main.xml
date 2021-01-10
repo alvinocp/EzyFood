@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+
+
+
+    <Button
+        android:id="@+id/drink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/drinks"
+        android:gravity="bottom"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="230dp"
+        android:onClick="Menu"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/snack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/snacks"
+        android:layout_alignTop="@+id/drink"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:onClick="Menu"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/foods"
+        android:layout_alignLeft="@+id/drink"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="230dp"
+        android:onClick="Menu"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+
+        />
+
+    <Button
+        android:id="@+id/topup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/topup"
+        android:gravity="bottom"
+        android:layout_alignRight="@+id/snack"
+        android:layout_alignBottom="@+id/food"
+        android:onClick="TopUp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/myorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="2dp"
+        android:text="@string/myorder"
+        android:onClick="MyOrder"
+        />
+
+    <Button
+        android:id="@+id/seemap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="2dp"
+        android:layout_alignLeft="@+id/myorder"
+        android:onClick="Map"
+        android:text="See Map" />
+
+
+</RelativeLayout>
+
